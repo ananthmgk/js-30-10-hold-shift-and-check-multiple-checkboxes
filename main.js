@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
       checkboxes.forEach((checkbox) => {
         console.log(checkbox);
         if (checkbox === lastChecked || checkbox === this) {
-          inBetween = !inBetween;
+          inBetween = !inBetween; // it will toggle to true or false.
           console.log(inBetween);
           console.log('Starting to check them in between!');
         }
